@@ -4,7 +4,7 @@
 # This is a L2TP VPN installation for CentOS 7     #
 # Version: 1.1.0 20140803                          #
 # Author: Travis Lee                               #
-# Website: http://www.stunnel.info                 #
+# Website: http://www.tedx.net                     #
 #                                                  #
 ####################################################
 
@@ -28,7 +28,7 @@ printf "
 # This is a L2TP VPN installation for CentOS 7     #
 # Version: 1.1.0 20140803                          #
 # Author: Travis Lee                               #
-# Website: http://www.stunnel.info                 #
+# Website: http://www.tedx.net                     #
 #                                                  #
 ####################################################
 "
@@ -70,18 +70,18 @@ if [[ -n "$iprangetmp" ]]; then
 fi
 
 #设置预共享密钥
-mypsk="stunnel.info"
+mypsk="tedx.net"
 echo "Please input PSK:"
-printf "(Default PSK: \e[33mstunnel.info\e[0m): "
+printf "(Default PSK: \e[33mtedx.net\e[0m): "
 read mypsktmp
 if [[ -n "$mypsktmp" ]]; then
     mypsk=$mypsktmp
 fi
 
 #设置VPN用户名
-username="stunnel"
+username="uyun"
 echo "Please input VPN username:"
-printf "(Default VPN username: \e[33mstunnel\e[0m): "
+printf "(Default VPN username: \e[33muyun\e[0m): "
 read usernametmp
 if [[ -n "$usernametmp" ]]; then
     username=$usernametmp
@@ -342,7 +342,7 @@ printf "
 # This is a L2TP VPN installation for CentOS 7     #
 # Version: 1.1.0 20140803                          #
 # Author: Travis Lee                               #
-# Website: http://www.stunnel.info                 #
+# Website: http://www.tedx.net                     #
 #                                                  #
 ####################################################
 if there are no [FAILED] above, then you can
